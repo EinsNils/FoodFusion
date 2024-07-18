@@ -25,7 +25,7 @@ export default function Home() {
                     placeholder="Essen"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="mt-4 px-4 py-2 rounded"
+                    className="mt-4 px-4 py-2 rounded text-black"
                 />
                 <Button className="mt-4 px-4 py-2 bg-green-500 text-white rounded shadow" onClick={search}>Search</Button>
             </header>
